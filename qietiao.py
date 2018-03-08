@@ -7,10 +7,13 @@ from matplotlib import pyplot as plt
 import heapq
 import math
 
+#列数
 imgcol = 4
+#行数
 imgrow = 5
 
-isEquels = False
+#是不是整齐
+isEquels = False 
 
 #二值化处理
 def thresh_binary(img):
